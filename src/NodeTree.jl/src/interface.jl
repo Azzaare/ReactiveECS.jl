@@ -10,7 +10,6 @@ get_node(n,i) = nothing
 remove_child(n) = nothing
 remove_node(n) = nothing
 
-get_tree() = nothing
 get_root() = nothing
 
 nvalue(x) = x

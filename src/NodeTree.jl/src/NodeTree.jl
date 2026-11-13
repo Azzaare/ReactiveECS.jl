@@ -87,8 +87,6 @@ function Base.delete!(d::SimpleDict,elt)
 	end
 end
 
-Base.length(d::SimpleDict) = length(getfield(d,:ky))
-
 """
 	  mutable struct Node
         self :: T
