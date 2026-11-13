@@ -1,6 +1,6 @@
 module ReactiveECS
 
-include(joinpath("ECSInterface.jl", "src", "ECSInterface.jl"))
+include(joinpath("ECSInterfacePlugin.jl", "src", "ECSInterface.jl"))
 
 using Reexport
 using StructArrays
